@@ -2,8 +2,8 @@ import com.haxepunk.Scene;
 
 class MainScene extends Scene
 {
-	public override function begin()
+	public override function begin ()
 	{
-
+		new Level("test");
 	}
 }
